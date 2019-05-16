@@ -10,6 +10,8 @@ body {
     opacity: 0.8;
 }
 
+
+
 .main {
     height: 85vh;
 }
@@ -23,13 +25,18 @@ body {
     background-color: white;
 }
 
+#home-link {
+    font-size: 2em;
+
+}
+
 .menu {
     
     border-radius: 5px;
     box-shadow: 0 30px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     text-transform: uppercase;
-    font-weight: bolder;
-    padding-top: 2em;
+    font-weight: bolder !important;
+    padding-top: 0.5em;
     padding-bottom: 2em;
     
 }
@@ -38,6 +45,15 @@ body {
     color: dimgray;
     border-bottom: 1px solid dimgray;
 
+}
+
+.menu .btn-open {
+    color: dimgray !important;
+
+}
+
+.btn-open:hover {
+    color: black !important;
 }
 
 .nav {

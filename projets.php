@@ -6,20 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <title>Projets-J. DEGHAYE</title>
 </head>
 
 <body>
+
+  
+
   <div class="container">
+  
+    
+    
     <div class="row main align-items-center">
+    <div class="col-sm-12 text-center"><a href="index.php" id="home-link"><i class="fas fa-home"></i></a></div>
       <div class="col-sm menu">
+      
         <div class="accordion" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
-              <button class="btn btn-link collapsed text-uppercase" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="btn btn-open collapsed text-uppercase text-decoration-none font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Le monde se divise en deux
               </button>
               </h2>
@@ -36,7 +46,7 @@
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed text-uppercase" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <button class="btn btn-open collapsed text-uppercase text-decoration-none font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Ma liste de courses
         </button>
       </h2>
@@ -52,7 +62,7 @@
   <div class="card">
     <div class="card-header" id="headingThree">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed text-uppercase" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <button class="btn btn-open collapsed text-uppercase text-decoration-none font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Carlusso Autos
         </button>
       </h2>
@@ -69,7 +79,7 @@
     <div class="card">
     <div class="card-header" id="headingFour">
       <h2 class="mb-0">
-        <button class="btn btn-link collapsed text-uppercase" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <button class="btn btn-open collapsed text-uppercase text-decoration-none font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           JDMC : site "One page"
         </button>
       </h2>
@@ -81,11 +91,12 @@
         <a href="http://www.jeremie-deghaye.fr/jdmc" target="_blank"><button type="button" class="btn btn-info mt-2">Découvrir</button></a>
       </div>
     </div>
+    </div>
   </div>
 </div>
 
             </div>
-            <div class="col-sm JD text-center">
+            <div class="col-sm JD text-center bounceInDown animated slower">
                 Projets
             </div>
         </div>

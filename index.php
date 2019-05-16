@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
     
     <title>Accueil - J. DEGHAYE</title>
 </head>
 
 <body>
+<div class="header">
+
+</div>
     <div class="container">
         <div class="row main align-items-center">
             <div class="col-sm menu">
@@ -21,7 +26,7 @@
                 <a class="nav-link" href="mailto:jim.deghaye@gmail.com">Contact</a>
             </nav>
             </div>
-            <div class="col-sm JD text-center">
+            <div class="col-sm JD text-center bounceInUp animated">
                 Bienvenue !
             </div>
         </div>
