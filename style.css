@@ -1,0 +1,54 @@
+
+body {
+    background-image: url("http://www.jeremie-deghaye.fr/work.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-size: 700;
+    opacity: 0.8;
+}
+
+.main {
+    height: 85vh;
+}
+
+.infos {
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.row {
+    background-color: white;
+}
+
+.menu {
+    
+    border-radius: 5px;
+    box-shadow: 0 30px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+.menu a {
+    color: dimgray;
+    border-bottom: 1px solid dimgray;
+
+}
+
+.nav {
+    padding-bottom: 2em;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.JD {
+    font-size: 3em;
+
+}
