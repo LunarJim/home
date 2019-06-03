@@ -9,25 +9,37 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
-    
-    <title>Accueil - J. DEGHAYE</title>
+    <meta name="description" content="Jeremie Deghaye développeur full stack Wordpress Freelance. Téléchargement de CV, accès au portfolio et contact" />
+
+    <title>Jérémie Deghaye, développeur freelance WordPress</title>
 </head>
 
 <body>
-<div class="header">
-
-</div>
     <div class="container">
         <div class="row main align-items-center">
             <div class="col-sm menu">
-            <nav class="nav flex-column text-center">
-                <a class="nav-link text-decoration-none" href="https://app.enhancv.com/share/0872a583?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" target="_blank">CV</a>
-                <a class="nav-link" href="projets.php" target="_blank">Projets</a>
-                <a class="nav-link" href="mailto:jim.deghaye@gmail.com">Contact</a>
-            </nav>
+                <nav class="nav flex-column text-center">
+                    
+                    <!--
+                        <a class="nav-link text-decoration-none" href="https://app.enhancv.com/share/0872a583?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" target="_blank"><h2>CV</h2></a>
+                    -->
+                    <a class="nav-link" href="projets.php" target="_blank"><h2>Projets</h2></a>
+                    <a class="nav-link" href="mailto:jim.deghaye@gmail.com"><h2>Contact</h2></a>
+                    <div class="flip-card nav-link" tabIndex="0">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front nav-link">
+                                <h2>CV</h2>
+                            </div>
+                            <div class="flip-card-back nav-link">
+                                <a href="JeremieDeghayeResume.pdf" download="JeremieDeghayeResume.pdf" >Télécharger</a>
+                                <a href="https://app.enhancv.com/share/0872a583?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic">Visualiser</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
             <div class="col-sm JD text-center bounceInUp animated">
-                Bienvenue !
+                <h1>Bienvenue !</h1>
             </div>
         </div>
         <div class="row align-items-center infos">
@@ -36,7 +48,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

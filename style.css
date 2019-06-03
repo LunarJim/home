@@ -43,8 +43,6 @@ body {
 
 .menu a {
     color: dimgray;
-    border-bottom: 1px solid dimgray;
-
 }
 
 .menu .btn-open {
@@ -68,3 +66,45 @@ body {
     font-size: 3em;
 
 }
+
+/* card flip */
+
+
+  .flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:focus {
+      outline: 0;
+  }
+  
+  .flip-card:hover .flip-card-inner,
+  .flip-card:focus .flip-card-inner{
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    
+    color: dimgray;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    z-index: 2;
+    
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+    
+  }

@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="description" content="Jeremie Deghaye développeur full stack Wordpress Freelance. Téléchargement de CV, accès au portfolio et contact" />
 
-    <title>Projets-J. DEGHAYE</title>
+
+    <title>Jérémie Deghaye : projets</title>
 </head>
 
 <body>
@@ -96,7 +98,7 @@
 </div>
 
             </div>
-            <div class="col-sm JD text-center bounceInDown animated slower">
+            <div class="col-sm d-none d-sm-block JD text-center bounceInDown animated slower">
                 Projets
             </div>
         </div>
