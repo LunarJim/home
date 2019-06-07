@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <meta name="description" content="Jeremie Deghaye développeur full stack Wordpress Freelance. Téléchargement de CV, accès au portfolio et contact" />
 
 
@@ -96,10 +97,27 @@
             </div>
             
         </div>
-        <div class="row align-items-center infos">
-            <div class="col-sm text-center">
-            Jérémie DEGHAYE - 5 allée des Roseaux / 78400 CHATOU - 06 76 83 35 54 - <a href="mailto:jim.deghaye@gmail.com">jim.deghaye@gmail.com</a>
+        <div class="row infos justify-content-end">
+            <div class="col-lg-3 text-left">
+            <i class="fas fa-user-alt"></i>
+                <p class="infos__detail"> Jérémie DEGHAYE </p>
+
             </div>
+            <div class="col-lg-3 text-left">
+            <i class="fas fa-home"></i>
+               <p class="infos__detail"> 5 allée des Roseaux <br> 78400 Chatou </p>
+                
+            </div>
+            <div class="col-lg-3 text-left ">
+            <i class="fas fa-at"></i>
+               <p class="infos__detail"> <a href="mailto:jim.deghaye@gmail.com" class="text-reset ">jim.deghaye@gmail.com</a></p>
+                
+            </div>
+            <div class="col-lg-3 text-left ">
+            <i class="fas fa-mobile-alt"></i>
+              <p class="infos__detail">  06 76 83 35 54 </p>
+            </div>
+
         </div>
     </div>
 
