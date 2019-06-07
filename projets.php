@@ -16,17 +16,13 @@
 </head>
 
 <body>
-
-  
-
   <div class="container">
-  
-    
-    
     <div class="row main align-items-center">
-    <div class="col-sm-12 text-center"><a href="index.php" id="home-link"><i class="fas fa-home"></i></a></div>
-      <div class="col-sm menu">
-      
+    <div class="col-sm-12 text-center home"><a href="index.php" id="home-link"><i class="fas fa-home"></i></a></div>
+    <div class="col-sm d-none d-md-block section-name text-center bounceInDown animated slower">
+                Projets
+            </div>
+      <div class="col-sm menu projets">
         <div class="accordion" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
@@ -39,7 +35,7 @@
 
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-        Un concept simple ! "Le monde se divise en deux" : proposer une citation à chaud pour intégrer la communauté des amateurs de bons mots. Site réalisé sous WordPress avec thème custom, custom post type, plugin de gestion, compteur de likes (js Ajax, PDO, table custom), gestion de connexion, de soumission de posts, affichage par catégories, ratings, auteurs... Intégration bootstrap / Sass. (Responsive)
+        Un site communautaire pour proposer une citation à chaud du type "le monde se divise en deux, ceux qui... et ceux qui... .Réalisé sous WordPress avec thème custom, custom post type, plugin de gestion, compteur de likes (js Ajax, PDO), gestion de connexion, de soumission de posts, affichage par catégories, ratings, auteurs... Intégration bootstrap / Sass. (Responsive)
         <br>
         <a href="http://www.jeremie-deghaye.fr/le-monde-se-divise-en-deux" target="_blank"><button type="button" class="btn btn-info mt-2">Découvrir</button></a>
       </div>
@@ -98,8 +94,11 @@
 </div>
 
             </div>
-            <div class="col-sm d-none d-sm-block JD text-center bounceInDown animated slower">
-                Projets
+            
+        </div>
+        <div class="row align-items-center infos">
+            <div class="col-sm text-center">
+            Jérémie DEGHAYE - 5 allée des Roseaux / 78400 CHATOU - 06 76 83 35 54 - <a href="mailto:jim.deghaye@gmail.com">jim.deghaye@gmail.com</a>
             </div>
         </div>
     </div>

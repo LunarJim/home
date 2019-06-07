@@ -17,14 +17,14 @@
 <body>
     <div class="container">
         <div class="row main align-items-center">
+            
+            <div class="col-sm section-name text-center bounceInUp animated">
+                <h1>Bienvenue !</h1>
+            </div>
             <div class="col-sm menu">
                 <nav class="nav flex-column text-center">
-                    
-                    <!--
-                        <a class="nav-link text-decoration-none" href="https://app.enhancv.com/share/0872a583?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" target="_blank"><h2>CV</h2></a>
-                    -->
-                    <a class="nav-link" href="projets.php" target="_blank"><h2>Projets</h2></a>
-                    <a class="nav-link" href="mailto:jim.deghaye@gmail.com"><h2>Contact</h2></a>
+                    <a class="nav-link projets" href="projets.php"><h2>Projets</h2></a>
+                    <a class="nav-link email" href="mailto:jim.deghaye@gmail.com"><h2>Contact</h2></a>
                     <div class="flip-card nav-link" tabIndex="0">
                         <div class="flip-card-inner">
                             <div class="flip-card-front nav-link">
@@ -38,13 +38,12 @@
                     </div>
                 </nav>
             </div>
-            <div class="col-sm JD text-center bounceInUp animated">
-                <h1>Bienvenue !</h1>
-            </div>
         </div>
         <div class="row align-items-center infos">
             <div class="col-sm text-center">
-            Jérémie DEGHAYE - 5 allée des Roseaux / 78400 CHATOU - 06 76 83 35 54 - <a href="mailto:jim.deghaye@gmail.com">jim.deghaye@gmail.com</a>
+            Jérémie DEGHAYE <br>
+            5 allée des Roseaux <br> 78400 CHATOU <br>
+            <p>06 76 83 35 54 | <a href="mailto:jim.deghaye@gmail.com">jim.deghaye@gmail.com</a></p>
             </div>
         </div>
     </div>

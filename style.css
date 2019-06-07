@@ -1,5 +1,5 @@
 
-body {
+html {
     background-image: url("http://www.jeremie-deghaye.fr/work.jpeg");
     height: 100vh;
     background-repeat: no-repeat;
@@ -10,23 +10,20 @@ body {
     opacity: 0.8;
 }
 
-
-
 .main {
     height: 85vh;
 }
 
 .infos {
-    height: 10vh;
-    margin-top: 5vh;
+    height: 15vh;
 }
 
-.row {
-    background-color: white;
+.home {
+    margin-bottom: -3em;
 }
-
 #home-link {
     font-size: 2em;
+    color: dimgray;
 
 }
 
@@ -39,6 +36,13 @@ body {
     padding-top: 0.5em;
     padding-bottom: 2em;
     
+}
+
+.card-body {
+    text-transform: none;
+    color: dimgray;
+    max-height: 30vh !important;
+    overflow: scroll;
 }
 
 .menu a {
@@ -62,7 +66,7 @@ body {
     color: black;
 }
 
-.JD {
+.section-name {
     font-size: 3em;
 
 }
@@ -73,6 +77,7 @@ body {
   .flip-card {
     background-color: transparent;
     perspective: 1000px;
+    padding: 0;
   }
   
   .flip-card-inner {
@@ -100,10 +105,12 @@ body {
   
   .flip-card-front {
     z-index: 2;
+    padding: 0;
     
   }
   
   .flip-card-back {
+    padding: 0;
     transform: rotateY(180deg);
     z-index: 1;
     
